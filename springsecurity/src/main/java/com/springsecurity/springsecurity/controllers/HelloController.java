@@ -31,7 +31,7 @@ public class HelloController {
 	}
 	
 	//if csrf token is enabled then for update request csrf token required
-	// in case of read request csrf token is not required
+	//in case of read request csrf token is not required
 	@GetMapping(path="/retrievecsrftoken")
 	public CsrfToken retrieveCSRF(HttpServletRequest request)
 	{
